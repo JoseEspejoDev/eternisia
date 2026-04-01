@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo Gratis: Cómo Duplicar las Primeras Visitas de tu Clínica Dental | EternisIA</title>
+    <meta name="description" content="Descubre el Método Crece Sin Límites en un vídeo de 4 minutos. El sistema con el que clínicas dentales en España duplican sus primeras visitas en 90 días.">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Cómo duplicar las primeras visitas de tu clínica dental en 90 días">
+    <meta property="og:description" content="Vídeo gratuito: el sistema exacto con el que 15+ clínicas dentales llenan su agenda cada mes. Sin depender del boca a boca.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://eternisia.com/optin.html">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:site_name" content="EternisIA">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cómo duplicar las primeras visitas de tu clínica dental en 90 días">
+    <meta name="twitter:description" content="Vídeo gratuito de 4 minutos. El método que usan las clínicas dentales que más crecen en España.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Manrope:wght@400;500;600&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            black: '#0A0A0F',
+                            surface: '#0F0F14',
+                            container: '#141419',
+                            elevated: '#1A1A1F',
+                            accent: '#FF6B2C',
+                            'accent-hover': '#FF8C42',
+                            body: '#B8B8C0',
+                            muted: '#6B6B78',
+                            micro: '#4A4A55',
+                        }
+                    },
+                    fontFamily: {
+                        headline: ['Sora', 'sans-serif'],
+                        body: ['Manrope', 'sans-serif'],
+                        label: ['Space Grotesk', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0A0A0F;
+            color: #B8B8C0;
+            font-family: 'Manrope', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* Scroll animations */
+        .reveal {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Stagger children */
+        .stagger > .reveal:nth-child(1) { transition-delay: 0ms; }
+        .stagger > .reveal:nth-child(2) { transition-delay: 80ms; }
+        .stagger > .reveal:nth-child(3) { transition-delay: 160ms; }
+        .stagger > .reveal:nth-child(4) { transition-delay: 240ms; }
+        .stagger > .reveal:nth-child(5) { transition-delay: 320ms; }
+        .stagger > .reveal:nth-child(6) { transition-delay: 400ms; }
+
+        /* CTA glow */
+        .cta-glow {
+            box-shadow: 0 0 24px rgba(255, 107, 44, 0.25);
+        }
+        .cta-glow:hover {
+            box-shadow: 0 0 40px rgba(255, 107, 44, 0.4);
+        }
+
+        /* Form glow */
+        .form-glow {
+            box-shadow: 0 0 60px rgba(255, 107, 44, 0.08), 0 0 120px rgba(255, 107, 44, 0.04);
+        }
+
+        /* FAQ accordion */
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s cubic-bezier(0.16, 1, 0.3, 1), padding 0.4s ease;
+        }
+        .faq-item.open .faq-answer {
+            max-height: 300px;
+        }
+        .faq-item.open .faq-chevron {
+            transform: rotate(180deg);
+        }
+        .faq-chevron {
+            transition: transform 0.3s ease;
+        }
+
+        /* Input focus glow */
+        input:focus {
+            box-shadow: 0 0 0 2px rgba(255, 107, 44, 0.3);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <main>
+
+        <!-- ========== HERO + FORM ========== -->
+        <section class="relative min-h-screen flex flex-col items-center justify-center pt-16 pb-20 px-6 overflow-hidden">
+            <!-- Background glow -->
+            <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-accent/6 blur-[160px] rounded-full pointer-events-none"></div>
+
+            <div class="max-w-[680px] mx-auto relative z-10 text-center">
+                <!-- Logo -->
+                <div class="reveal mb-10">
+                    <img src="assets/images/logo-eternisia.png" alt="EternisIA" class="h-8 w-auto mx-auto">
+                </div>
+
+                <!-- Qualifier badge -->
+                <span class="reveal inline-block px-4 py-1.5 mb-8 rounded-full border border-brand-accent/30 bg-brand-accent/5 text-brand-accent font-label text-xs sm:text-sm tracking-wider uppercase">
+                    Exclusivo para clínicas dentales en España · mín. 3.000€/mes beneficio neto
+                </span>
+
+                <!-- Headline -->
+                <h1 class="reveal font-headline text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight leading-[1.1] mb-6">
+                    Cómo duplicar las primeras visitas de tu clínica dental en los próximos 90 días
+                </h1>
+
+                <!-- Subheadline -->
+                <p class="reveal font-headline text-lg md:text-xl text-brand-body/90 mb-6">
+                    Sin depender del boca a boca. Sin perder pacientes por falta de seguimiento.
+                </p>
+
+                <!-- Video preview -->
+                <div class="reveal relative aspect-video max-w-lg mx-auto mb-8 rounded-2xl overflow-hidden border border-white/10 cursor-default">
+                    <img src="assets/images/foto-optin.png" alt="Vista previa del vídeo" class="absolute inset-0 w-full h-full object-cover blur-[6px] scale-105 brightness-75">
+                    <div class="absolute inset-0 bg-brand-dark/30"></div>
+                    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 md:w-20 md:h-20 rounded-full bg-brand-accent/90 flex items-center justify-center shadow-lg">
+                        <svg class="w-8 h-8 md:w-10 md:h-10 text-white ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                </div>
+
+                <!-- Description -->
+                <p class="reveal font-body text-brand-body text-base mb-10 max-w-xl mx-auto leading-relaxed">
+                    Mira este vídeo de 4 minutos donde José Espejo, fundador de EternisIA, te revela el sistema exacto con el que más de 15 clínicas dentales han llenado su agenda de forma predecible — mes tras mes.
+                </p>
+
+                <!-- Form card -->
+                <div class="reveal bg-brand-container/80 border border-white/8 rounded-2xl p-8 md:p-10 form-glow">
+                    <form id="optinForm" class="space-y-4">
+                        <div>
+                            <input
+                                type="text"
+                                name="nombre"
+                                placeholder="Tu nombre"
+                                required
+                                autocomplete="given-name"
+                                class="w-full bg-brand-black/60 border border-white/10 rounded-xl px-5 py-4 text-white font-body placeholder:text-brand-muted focus:outline-none focus:border-brand-accent/50 transition-all duration-300"
+                            >
+                        </div>
+                        <div>
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="tu@email.com"
+                                required
+                                autocomplete="email"
+                                class="w-full bg-brand-black/60 border border-white/10 rounded-xl px-5 py-4 text-white font-body placeholder:text-brand-muted focus:outline-none focus:border-brand-accent/50 transition-all duration-300"
+                            >
+                        </div>
+                        <button
+                            type="submit"
+                            class="w-full bg-brand-accent text-white font-headline font-bold text-lg py-4 rounded-xl cta-glow hover:bg-brand-accent-hover hover:scale-[1.02] transition-all duration-300 mt-2"
+                        >
+                            Quiero ver el vídeo ahora
+                        </button>
+                    </form>
+                    <p class="text-brand-muted text-sm mt-4 font-body">Acceso inmediato. Gratuito. Sin compromiso.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== QUÉ DESCUBRIRÁS ========== -->
+        <section class="bg-brand-surface py-20 md:py-28 px-6">
+            <div class="max-w-[700px] mx-auto">
+                <h2 class="reveal font-headline text-2xl md:text-4xl font-semibold text-white mb-12 text-center">
+                    En este vídeo descubrirás:
+                </h2>
+                <div class="stagger space-y-5">
+                    <div class="reveal flex items-start gap-4 group">
+                        <div class="mt-1 shrink-0 w-7 h-7 rounded-lg bg-brand-accent/10 flex items-center justify-center group-hover:bg-brand-accent transition-colors duration-300">
+                            <svg class="w-4 h-4 text-brand-accent group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                        </div>
+                        <p class="text-brand-body leading-relaxed">Por qué el boca a boca es la peor estrategia de crecimiento para tu clínica — <strong class="text-white">y qué hacer en su lugar</strong></p>
+                    </div>
+                    <div class="reveal flex items-start gap-4 group">
+                        <div class="mt-1 shrink-0 w-7 h-7 rounded-lg bg-brand-accent/10 flex items-center justify-center group-hover:bg-brand-accent transition-colors duration-300">
+                            <svg class="w-4 h-4 text-brand-accent group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                        </div>
+                        <p class="text-brand-body leading-relaxed">El error que comete el 80% de las clínicas con la publicidad digital — <strong class="text-white">y cómo evitarlo</strong></p>
+                    </div>
+                    <div class="reveal flex items-start gap-4 group">
+                        <div class="mt-1 shrink-0 w-7 h-7 rounded-lg bg-brand-accent/10 flex items-center justify-center group-hover:bg-brand-accent transition-colors duration-300">
+                            <svg class="w-4 h-4 text-brand-accent group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                        </div>
+                        <p class="text-brand-body leading-relaxed"><strong class="text-white">El sistema de 3 fases</strong> que convierte desconocidos en pacientes sentados en tu sillón</p>
+                    </div>
+                    <div class="reveal flex items-start gap-4 group">
+                        <div class="mt-1 shrink-0 w-7 h-7 rounded-lg bg-brand-accent/10 flex items-center justify-center group-hover:bg-brand-accent transition-colors duration-300">
+                            <svg class="w-4 h-4 text-brand-accent group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                        </div>
+                        <p class="text-brand-body leading-relaxed">Cómo <strong class="text-white">eliminar la pérdida de pacientes</strong> por mensajes sin responder, recepciones saturadas y citas que no se presentan</p>
+                    </div>
+                    <div class="reveal flex items-start gap-4 group">
+                        <div class="mt-1 shrink-0 w-7 h-7 rounded-lg bg-brand-accent/10 flex items-center justify-center group-hover:bg-brand-accent transition-colors duration-300">
+                            <svg class="w-4 h-4 text-brand-accent group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                        </div>
+                        <p class="text-brand-body leading-relaxed">Qué estructura necesita tu clínica para generar <strong class="text-white">15-30 primeras visitas cualificadas al mes</strong></p>
+                    </div>
+                    <div class="reveal flex items-start gap-4 group">
+                        <div class="mt-1 shrink-0 w-7 h-7 rounded-lg bg-brand-accent/10 flex items-center justify-center group-hover:bg-brand-accent transition-colors duration-300">
+                            <svg class="w-4 h-4 text-brand-accent group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                        </div>
+                        <p class="text-brand-body leading-relaxed">El filtro para saber si tu clínica <strong class="text-white">está preparada para escalar</strong> — y cuándo es mejor esperar</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== PARA QUIÉN ES / PARA QUIÉN NO ========== -->
+        <section class="bg-brand-black py-20 md:py-28 px-6">
+            <div class="max-w-[900px] mx-auto">
+                <div class="flex flex-col md:flex-row gap-8 md:gap-12">
+                    <!-- Es para ti -->
+                    <div class="reveal w-full md:w-1/2 bg-brand-container p-8 md:p-10 rounded-2xl border border-brand-accent/20">
+                        <div class="flex items-center gap-3 mb-6">
+                            <div class="w-8 h-8 rounded-full bg-brand-accent/15 flex items-center justify-center">
+                                <svg class="w-5 h-5 text-brand-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                            </div>
+                            <h3 class="font-headline text-white text-xl font-bold">Este vídeo es para ti si:</h3>
+                        </div>
+                        <ul class="space-y-4">
+                            <li class="flex items-start gap-3">
+                                <span class="text-brand-accent mt-0.5 text-sm">&#10003;</span>
+                                <span class="text-brand-body text-sm leading-relaxed">Tu clínica genera al menos 3.000€/mes de beneficio neto y quiere crecer</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-brand-accent mt-0.5 text-sm">&#10003;</span>
+                                <span class="text-brand-body text-sm leading-relaxed">Tienes huecos en la agenda que no consigues llenar de forma consistente</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-brand-accent mt-0.5 text-sm">&#10003;</span>
+                                <span class="text-brand-body text-sm leading-relaxed">Quieres un sistema predecible — no depender de que "suene el teléfono"</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-brand-accent mt-0.5 text-sm">&#10003;</span>
+                                <span class="text-brand-body text-sm leading-relaxed">Estás dispuesto a implementar un proceso real de captación y seguimiento</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-brand-accent mt-0.5 text-sm">&#10003;</span>
+                                <span class="text-brand-body text-sm leading-relaxed">Buscas resultados medibles, no promesas vacías</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- No es para ti -->
+                    <div class="reveal w-full md:w-1/2 bg-brand-container p-8 md:p-10 rounded-2xl border border-white/5">
+                        <div class="flex items-center gap-3 mb-6">
+                            <div class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center">
+                                <svg class="w-5 h-5 text-brand-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>
+                            </div>
+                            <h3 class="font-headline text-white text-xl font-bold">No es para ti si:</h3>
+                        </div>
+                        <ul class="space-y-4">
+                            <li class="flex items-start gap-3">
+                                <span class="text-brand-muted mt-0.5 text-sm">&#10007;</span>
+                                <span class="text-brand-body text-sm leading-relaxed">Buscas un truco mágico que funcione sin proceso ni implementación</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-brand-muted mt-0.5 text-sm">&#10007;</span>
+                                <span class="text-brand-body text-sm leading-relaxed">Esperas resultados inmediatos sin hacer ningún cambio en tu clínica</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-brand-muted mt-0.5 text-sm">&#10007;</span>
+                                <span class="text-brand-body text-sm leading-relaxed">Tu clínica aún no tiene estructura mínima para recibir nuevos pacientes</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-brand-muted mt-0.5 text-sm">&#10007;</span>
+                                <span class="text-brand-body text-sm leading-relaxed">Solo quieres "más seguidores" sin un sistema comercial real detrás</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== FUNDADOR ========== -->
+        <section class="bg-brand-surface py-20 md:py-28 px-6">
+            <div class="max-w-[800px] mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-14">
+                <div class="reveal w-full md:w-2/5 shrink-0">
+                    <div class="relative aspect-[3/4] max-w-[280px] mx-auto rounded-2xl overflow-hidden border border-white/5">
+                        <img src="assets/images/foto-jose.png" alt="José Espejo, fundador de EternisIA" class="w-full h-full object-cover" loading="lazy" width="280" height="373">
+                    </div>
+                </div>
+                <div class="reveal w-full md:w-3/5">
+                    <h2 class="font-headline text-2xl md:text-3xl font-semibold text-white mb-6">Quién está detrás del método</h2>
+                    <div class="space-y-4 text-brand-body leading-relaxed text-sm">
+                        <p>Soy <strong class="text-white">José Espejo</strong>, ingeniero informático, fundador de EternisIA y creador del Método Crece Sin Límites.</p>
+                        <p>He gestionado <strong class="text-white">más de 500.000 € en publicidad digital</strong>, trabajado con <strong class="text-white">más de 50 clientes</strong> y ayudado a <strong class="text-white">más de 15 clínicas dentales</strong> a llenar su agenda de forma predecible.</p>
+                        <p>No soy dentista, pero entiendo tu negocio. He construido un sistema que conecta publicidad digital, automatización y seguimiento para que lleguen pacientes reales a tu clínica — no seguidores, no likes, <strong class="text-white">pacientes</strong>.</p>
+                    </div>
+                    <div class="flex flex-wrap gap-6 mt-6 text-sm">
+                        <div>
+                            <span class="text-brand-accent font-headline font-bold text-2xl block">+500K€</span>
+                            <span class="text-brand-muted">en publicidad</span>
+                        </div>
+                        <div>
+                            <span class="text-brand-accent font-headline font-bold text-2xl block">50+</span>
+                            <span class="text-brand-muted">clientes</span>
+                        </div>
+                        <div>
+                            <span class="text-brand-accent font-headline font-bold text-2xl block">15+</span>
+                            <span class="text-brand-muted">clínicas dentales</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== TESTIMONIOS ========== -->
+        <section class="bg-brand-black py-20 md:py-28 px-6">
+            <div class="max-w-[800px] mx-auto text-center">
+                <h2 class="reveal font-headline text-2xl md:text-3xl font-semibold text-white mb-12">Lo que dicen nuestros clientes</h2>
+                <div class="stagger grid grid-cols-1 sm:grid-cols-3 gap-5">
+                    <div class="reveal">
+                        <div class="video-facade relative aspect-[9/16] w-full rounded-2xl overflow-hidden border border-white/5 cursor-pointer group" data-youtube="Bo7sjjIZAHU">
+                            <img src="https://img.youtube.com/vi/Bo7sjjIZAHU/maxresdefault.jpg" alt="Testimonio de Noelia Pacheco" class="w-full h-full object-cover opacity-50 transition-opacity duration-300" loading="lazy" width="720" height="1280">
+                            <div class="absolute inset-0 bg-gradient-to-t from-brand-black/80 via-transparent to-transparent"></div>
+                            <div class="play-btn absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-14 h-14 bg-brand-accent rounded-full flex items-center justify-center transition-transform duration-300 shadow-lg">
+                                <svg class="w-6 h-6 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                            </div>
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <p class="font-headline text-white font-bold">Noelia Pacheco</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reveal">
+                        <div class="video-facade relative aspect-[9/16] w-full rounded-2xl overflow-hidden border border-white/5 cursor-pointer group" data-youtube="gOV_aV0mR4A">
+                            <img src="https://img.youtube.com/vi/gOV_aV0mR4A/maxresdefault.jpg" alt="Testimonio de Luis Timón" class="w-full h-full object-cover opacity-50 transition-opacity duration-300" loading="lazy" width="720" height="1280">
+                            <div class="absolute inset-0 bg-gradient-to-t from-brand-black/80 via-transparent to-transparent"></div>
+                            <div class="play-btn absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-14 h-14 bg-brand-accent rounded-full flex items-center justify-center transition-transform duration-300 shadow-lg">
+                                <svg class="w-6 h-6 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                            </div>
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <p class="font-headline text-white font-bold">Luis Timón</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reveal">
+                        <div class="video-facade relative aspect-[9/16] w-full rounded-2xl overflow-hidden border border-white/5 cursor-pointer group" data-youtube="yT5adcbeFvU">
+                            <img src="https://img.youtube.com/vi/yT5adcbeFvU/maxresdefault.jpg" alt="Testimonio de Juan Acuña" class="w-full h-full object-cover opacity-50 transition-opacity duration-300" loading="lazy" width="720" height="1280">
+                            <div class="absolute inset-0 bg-gradient-to-t from-brand-black/80 via-transparent to-transparent"></div>
+                            <div class="play-btn absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-14 h-14 bg-brand-accent rounded-full flex items-center justify-center transition-transform duration-300 shadow-lg">
+                                <svg class="w-6 h-6 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                            </div>
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <p class="font-headline text-white font-bold">Juan Acuña</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== FAQ ========== -->
+        <section class="bg-brand-surface py-20 md:py-28 px-6">
+            <div class="max-w-[600px] mx-auto">
+                <h2 class="reveal font-headline text-2xl md:text-3xl font-semibold text-white mb-12 text-center">Preguntas frecuentes</h2>
+                <div class="reveal space-y-0">
+                    <div class="faq-item border-b border-white/8 cursor-pointer" onclick="toggleFaq(this)">
+                        <div class="flex justify-between items-center py-5 gap-4">
+                            <h3 class="font-headline text-white text-base font-medium">¿Cuánto dura el vídeo?</h3>
+                            <svg class="faq-chevron w-4 h-4 text-brand-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="pb-5 text-brand-body leading-relaxed text-sm">Aproximadamente 4 minutos. Directo al grano, sin relleno. Solo lo que necesitas saber para entender si este sistema puede funcionar para tu clínica.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item border-b border-white/8 cursor-pointer" onclick="toggleFaq(this)">
+                        <div class="flex justify-between items-center py-5 gap-4">
+                            <h3 class="font-headline text-white text-base font-medium">¿Es una clase teórica?</h3>
+                            <svg class="faq-chevron w-4 h-4 text-brand-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="pb-5 text-brand-body leading-relaxed text-sm">No. Es una explicación práctica del método aplicado a clínicas dentales reales con resultados concretos. Sin teoría abstracta, sin PowerPoints interminables.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item border-b border-white/8 cursor-pointer" onclick="toggleFaq(this)">
+                        <div class="flex justify-between items-center py-5 gap-4">
+                            <h3 class="font-headline text-white text-base font-medium">¿Tengo que contratar algo para verlo?</h3>
+                            <svg class="faq-chevron w-4 h-4 text-brand-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="pb-5 text-brand-body leading-relaxed text-sm">No. Es 100% gratuito y sin compromiso. Accedes al vídeo inmediatamente después de registrar tu nombre y email.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item border-b border-white/8 cursor-pointer" onclick="toggleFaq(this)">
+                        <div class="flex justify-between items-center py-5 gap-4">
+                            <h3 class="font-headline text-white text-base font-medium">¿Funciona para cualquier clínica dental?</h3>
+                            <svg class="faq-chevron w-4 h-4 text-brand-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="pb-5 text-brand-body leading-relaxed text-sm">Está pensado para clínicas dentales establecidas en España con al menos 3.000€/mes de beneficio neto que quieren escalar su captación de pacientes. Si acabas de abrir y aún no tienes estructura operativa, puede que no sea el momento adecuado.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== CTA FINAL ========== -->
+        <section class="relative bg-brand-black py-20 md:py-28 px-6 overflow-hidden">
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-brand-accent/6 blur-[120px] rounded-full pointer-events-none"></div>
+            <div class="max-w-[560px] mx-auto text-center relative z-10">
+                <h2 class="reveal font-headline text-2xl md:text-4xl font-semibold text-white mb-6 leading-tight">
+                    ¿Quieres saber cómo duplicar las primeras visitas de tu clínica?
+                </h2>
+                <p class="reveal text-brand-body mb-8">Introduce tu nombre y email para acceder al vídeo gratuito.</p>
+
+                <!-- Secondary form -->
+                <div class="reveal bg-brand-container/80 border border-white/8 rounded-2xl p-8 form-glow">
+                    <form id="optinFormBottom" class="space-y-4">
+                        <div>
+                            <input
+                                type="text"
+                                name="nombre"
+                                placeholder="Tu nombre"
+                                required
+                                autocomplete="given-name"
+                                class="w-full bg-brand-black/60 border border-white/10 rounded-xl px-5 py-4 text-white font-body placeholder:text-brand-muted focus:outline-none focus:border-brand-accent/50 transition-all duration-300"
+                            >
+                        </div>
+                        <div>
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="tu@email.com"
+                                required
+                                autocomplete="email"
+                                class="w-full bg-brand-black/60 border border-white/10 rounded-xl px-5 py-4 text-white font-body placeholder:text-brand-muted focus:outline-none focus:border-brand-accent/50 transition-all duration-300"
+                            >
+                        </div>
+                        <button
+                            type="submit"
+                            class="w-full bg-brand-accent text-white font-headline font-bold text-lg py-4 rounded-xl cta-glow hover:bg-brand-accent-hover hover:scale-[1.02] transition-all duration-300 mt-2"
+                        >
+                            Ver vídeo ahora
+                        </button>
+                    </form>
+                    <p class="text-brand-muted text-sm mt-4 font-body">Acceso inmediato. Gratuito. Sin compromiso.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="bg-brand-black py-10 border-t border-white/5">
+        <div class="max-w-[700px] mx-auto px-6 text-center space-y-4">
+            <div class="flex items-center justify-center gap-3">
+                <img src="assets/images/logo-eternisia.png" alt="EternisIA" class="h-5 w-auto">
+                <span class="text-brand-muted text-sm font-label">Método Crece Sin Límites</span>
+            </div>
+            <p class="text-brand-micro text-xs leading-relaxed max-w-lg mx-auto">
+                Al registrarte aceptas recibir emails con contenido y seguimiento relacionado con esta formación y la sesión estratégica. Puedes darte de baja en cualquier momento.
+            </p>
+            <div class="flex items-center justify-center gap-4 text-brand-micro text-xs">
+                <a href="#" class="hover:text-brand-body transition-colors">Política de privacidad</a>
+                <span>·</span>
+                <a href="#" class="hover:text-brand-body transition-colors">Aviso legal</a>
+            </div>
+            <p class="text-brand-micro text-xs">&copy; 2025 EternisIA. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- ========== JAVASCRIPT ========== -->
+    <script>
+        // Scroll reveal with Intersection Observer
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // FAQ accordion
+        function toggleFaq(item) {
+            const wasOpen = item.classList.contains('open');
+            document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+            if (!wasOpen) item.classList.add('open');
+        }
+
+        // YouTube facade — click to embed and play inline
+        document.querySelectorAll('.video-facade').forEach(facade => {
+            facade.addEventListener('click', function() {
+                const videoId = this.dataset.youtube;
+                if (!videoId) return;
+                const iframe = document.createElement('iframe');
+                iframe.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&rel=0&modestbranding=1';
+                iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+                iframe.setAttribute('allowfullscreen', '');
+                iframe.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:none;border-radius:1rem;';
+                this.replaceChildren(iframe);
+                this.style.cursor = 'default';
+            });
+        });
+
+        // Form validation and redirect
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const form = e.target;
+            const nombre = form.querySelector('input[name="nombre"]').value.trim();
+            const email = form.querySelector('input[name="email"]').value.trim();
+
+            if (!nombre || !email) return;
+
+            // Basic email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                form.querySelector('input[name="email"]').focus();
+                return;
+            }
+
+            // TODO: conectar con GHL/webhook
+            // fetch('YOUR_WEBHOOK_URL', {
+            //     method: 'POST',
+            //     headers: { 'Content-Type': 'application/json' },
+            //     body: JSON.stringify({ nombre, email })
+            // }).then(() => {
+            //     window.location.href = 'vsl.html';
+            // });
+
+            // Redirect to video page
+            window.location.href = 'vsl.html';
+        }
+
+        document.getElementById('optinForm').addEventListener('submit', handleFormSubmit);
+        document.getElementById('optinFormBottom').addEventListener('submit', handleFormSubmit);
+    </script>
+</body>
+</html>

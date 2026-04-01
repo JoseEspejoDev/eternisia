@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesión Reservada — EternisIA</title>
+    <meta name="description" content="Tu sesión estratégica gratuita está confirmada. Prepárate para escalar la captación de tu clínica dental con el Método Crece Sin Límites.">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Sesión Reservada — EternisIA">
+    <meta property="og:description" content="Tu sesión estratégica gratuita está confirmada. Prepárate para escalar tu clínica dental.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://eternisia.com/gracias.html">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:site_name" content="EternisIA">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sesión Reservada — EternisIA">
+    <meta name="twitter:description" content="Tu sesión estratégica gratuita está confirmada.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Manrope:wght@400;500;600&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            black: '#0A0A0F',
+                            surface: '#0F0F14',
+                            container: '#141419',
+                            elevated: '#1A1A1F',
+                            accent: '#FF6B2C',
+                            'accent-hover': '#FF8C42',
+                            body: '#B8B8C0',
+                            muted: '#6B6B78',
+                            micro: '#4A4A55',
+                        }
+                    },
+                    fontFamily: {
+                        headline: ['Sora', 'sans-serif'],
+                        body: ['Manrope', 'sans-serif'],
+                        label: ['Space Grotesk', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0A0A0F;
+            color: #B8B8C0;
+            font-family: 'Manrope', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .stagger > .reveal:nth-child(1) { transition-delay: 0ms; }
+        .stagger > .reveal:nth-child(2) { transition-delay: 80ms; }
+        .stagger > .reveal:nth-child(3) { transition-delay: 160ms; }
+        .stagger > .reveal:nth-child(4) { transition-delay: 240ms; }
+
+        .tracking-display { letter-spacing: -0.03em; }
+        .tracking-section { letter-spacing: -0.02em; }
+
+        .cta-glow {
+            box-shadow: 0 0 24px rgba(255, 107, 44, 0.25);
+        }
+        .cta-glow:hover {
+            box-shadow: 0 0 40px rgba(255, 107, 44, 0.4);
+        }
+
+        .video-glow {
+            box-shadow: 0 0 80px rgba(255, 107, 44, 0.06), 0 0 160px rgba(255, 107, 44, 0.03);
+        }
+
+        .video-facade > * {
+            pointer-events: none;
+        }
+        .video-facade:hover .play-btn {
+            transform: translate(-50%, -50%) scale(1.1);
+        }
+        .video-facade:hover img {
+            opacity: 0.7;
+        }
+
+        /* Success checkmark animation */
+        .check-circle {
+            animation: scale-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        @keyframes scale-in {
+            0% { transform: scale(0); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <main>
+
+        <!-- ========== HERO: CONFIRMACION ========== -->
+        <section class="relative pt-12 pb-16 md:pt-16 md:pb-24 px-6 overflow-hidden">
+            <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-brand-accent/5 blur-[180px] rounded-full pointer-events-none"></div>
+
+            <div class="max-w-[800px] mx-auto relative z-10 w-full">
+                <!-- Logo -->
+                <div class="reveal text-center mb-8">
+                    <img src="assets/images/logo-eternisia.png" alt="EternisIA" class="h-8 w-auto mx-auto">
+                </div>
+
+                <!-- Success icon -->
+                <div class="reveal text-center mb-6">
+                    <div class="check-circle inline-flex items-center justify-center w-16 h-16 rounded-full bg-brand-accent/10 border-2 border-brand-accent/40">
+                        <svg class="w-8 h-8 text-brand-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                    </div>
+                </div>
+
+                <!-- Headline -->
+                <h1 class="reveal font-headline text-2xl sm:text-3xl md:text-[2.75rem] font-bold text-white tracking-display leading-[1.1] mb-5 text-center">
+                    Tu sesion estrategica gratuita esta reservada
+                </h1>
+                <p class="reveal font-body text-brand-body text-base md:text-lg text-center mb-6 max-w-2xl mx-auto" style="line-height:1.7">
+                    Ya has dado el primer paso para revisar como escalar la captacion y el seguimiento de tu clinica con un sistema mas predecible.
+                </p>
+            </div>
+        </section>
+
+        <!-- ========== VIDEO ========== -->
+        <section class="bg-brand-surface py-20 md:py-28 px-6">
+            <div class="max-w-[800px] mx-auto">
+                <div class="reveal w-full">
+                    <div class="video-facade relative aspect-video rounded-2xl overflow-hidden border border-white/10 bg-brand-container video-glow cursor-pointer group" data-youtube="1mTxFmj4wYM">
+                        <img src="https://img.youtube.com/vi/1mTxFmj4wYM/maxresdefault.jpg" alt="Video de agradecimiento EternisIA" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-300" loading="eager">
+                        <div class="play-btn absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 rounded-full bg-brand-accent/90 flex items-center justify-center transition-transform duration-300 shadow-lg">
+                            <svg class="w-10 h-10 text-white ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== QUE HACER AHORA ========== -->
+        <section class="bg-brand-black py-24 md:py-32 px-6">
+            <div class="max-w-[700px] mx-auto">
+                <div class="reveal text-center mb-14">
+                    <span class="inline-block px-4 py-1.5 mb-6 rounded-full border border-brand-accent/30 bg-brand-accent/5 text-brand-accent font-label text-xs tracking-wider uppercase">
+                        Pasos importantes
+                    </span>
+                    <h2 class="font-headline text-2xl md:text-[2rem] font-semibold text-white tracking-section">
+                        Que hacer antes de la sesion
+                    </h2>
+                </div>
+                <div class="stagger space-y-4">
+                    <div class="reveal flex items-start gap-4 bg-brand-container/60 p-5 rounded-xl border border-white/5">
+                        <div class="mt-0.5 shrink-0 w-7 h-7 rounded-lg bg-brand-accent/10 flex items-center justify-center">
+                            <span class="text-brand-accent font-label text-xs font-medium">1</span>
+                        </div>
+                        <div>
+                            <p class="text-white font-headline text-sm font-semibold">Revisa tu email</p>
+                            <p class="text-brand-body text-sm mt-0.5">Te hemos enviado la confirmacion con la fecha, hora y enlace de la sesion. Comprueba tambien la carpeta de spam.</p>
+                        </div>
+                    </div>
+                    <div class="reveal flex items-start gap-4 bg-brand-container/60 p-5 rounded-xl border border-white/5">
+                        <div class="mt-0.5 shrink-0 w-7 h-7 rounded-lg bg-brand-accent/10 flex items-center justify-center">
+                            <span class="text-brand-accent font-label text-xs font-medium">2</span>
+                        </div>
+                        <div>
+                            <p class="text-white font-headline text-sm font-semibold">Bloquea 30 minutos en tu agenda</p>
+                            <p class="text-brand-body text-sm mt-0.5">Reserva el tiempo sin interrupciones para que podamos aprovechar al maximo la sesion.</p>
+                        </div>
+                    </div>
+                    <div class="reveal flex items-start gap-4 bg-brand-container/60 p-5 rounded-xl border border-white/5">
+                        <div class="mt-0.5 shrink-0 w-7 h-7 rounded-lg bg-brand-accent/10 flex items-center justify-center">
+                            <span class="text-brand-accent font-label text-xs font-medium">3</span>
+                        </div>
+                        <div>
+                            <p class="text-white font-headline text-sm font-semibold">Ten a mano estos datos</p>
+                            <p class="text-brand-body text-sm mt-0.5">Asi podremos darte recomendaciones concretas y personalizadas para tu clinica:</p>
+                            <ul class="mt-3 space-y-2">
+                                <li class="flex items-start gap-2">
+                                    <span class="text-brand-accent mt-0.5 shrink-0 text-xs">&#9654;</span>
+                                    <span class="text-brand-body text-sm">Tratamientos principales que ofreces</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <span class="text-brand-accent mt-0.5 shrink-0 text-xs">&#9654;</span>
+                                    <span class="text-brand-body text-sm">Situacion actual de captacion de pacientes</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <span class="text-brand-accent mt-0.5 shrink-0 text-xs">&#9654;</span>
+                                    <span class="text-brand-body text-sm">Principal cuello de botella (leads, seguimiento, no-shows o cierres)</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <span class="text-brand-accent mt-0.5 shrink-0 text-xs">&#9654;</span>
+                                    <span class="text-brand-body text-sm">Presupuesto aproximado para marketing</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="reveal flex items-start gap-4 bg-brand-container/60 p-5 rounded-xl border border-white/5">
+                        <div class="mt-0.5 shrink-0 w-7 h-7 rounded-lg bg-brand-accent/10 flex items-center justify-center">
+                            <span class="text-brand-accent font-label text-xs font-medium">4</span>
+                        </div>
+                        <div>
+                            <p class="text-white font-headline text-sm font-semibold">Mira el video de arriba</p>
+                            <p class="text-brand-body text-sm mt-0.5">Te dara contexto sobre como trabajamos y que puedes esperar de la sesion. Asi llegaras mejor preparado.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== CTA VOLVER A HOME ========== -->
+        <section class="relative bg-brand-surface py-24 md:py-32 px-6 overflow-hidden">
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-brand-accent/5 blur-[120px] rounded-full pointer-events-none"></div>
+            <div class="max-w-[600px] mx-auto relative z-10 text-center">
+                <p class="reveal text-brand-body mb-8 max-w-md mx-auto" style="line-height:1.7">
+                    ¿Tienes alguna pregunta antes de la sesion? Escribenos a <a href="mailto:info@eternisia.com" class="text-brand-accent hover:text-brand-accent-hover transition-colors underline underline-offset-2">info@eternisia.com</a>
+                </p>
+                <div class="reveal">
+                    <a
+                        href="index.html"
+                        class="inline-block px-10 py-5 bg-brand-accent text-white font-headline font-bold text-base sm:text-lg rounded-xl cta-glow hover:bg-brand-accent-hover hover:scale-[1.03] transition-all duration-300"
+                    >
+                        Volver al inicio &rarr;
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="bg-brand-black py-10 border-t border-white/5">
+        <div class="max-w-[700px] mx-auto px-6 text-center space-y-4">
+            <div class="flex items-center justify-center gap-3">
+                <img src="assets/images/logo-eternisia.png" alt="EternisIA" class="h-5 w-auto">
+                <span class="text-brand-muted text-sm font-label">Metodo Crece Sin Limites</span>
+            </div>
+            <div class="flex items-center justify-center gap-4 text-brand-micro text-xs">
+                <a href="#" class="hover:text-brand-body transition-colors">Politica de privacidad</a>
+                <span>·</span>
+                <a href="#" class="hover:text-brand-body transition-colors">Aviso legal</a>
+            </div>
+            <p class="text-brand-micro text-xs">&copy; 2025 EternisIA. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- ========== JAVASCRIPT ========== -->
+    <script>
+        // Scroll reveal
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // YouTube facade — click to embed and play inline
+        document.querySelectorAll('.video-facade').forEach(facade => {
+            facade.addEventListener('click', function() {
+                const videoId = this.dataset.youtube;
+                if (!videoId) return;
+                const iframe = document.createElement('iframe');
+                iframe.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&rel=0&modestbranding=1';
+                iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+                iframe.setAttribute('allowfullscreen', '');
+                iframe.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:none;border-radius:1rem;';
+                this.replaceChildren(iframe);
+                this.style.cursor = 'default';
+            });
+        });
+    </script>
+</body>
+</html>
