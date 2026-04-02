@@ -1,0 +1,16 @@
+# Tipos MIME
+AddType application/xml .xml
+AddType text/xml .xml
+
+# Página 404 personalizada
+ErrorDocument 404 /404.html
+
+# Forzar minúsculas en sitemap
+RewriteEngine On
+RewriteRule ^SITEMAP\.XML$ /sitemap.xml [L,R=301,NC]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Eliminar www
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
