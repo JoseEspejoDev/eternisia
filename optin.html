@@ -542,11 +542,13 @@
                 const videoId = this.dataset.youtube;
                 if (!videoId) return;
                 const iframe = document.createElement('iframe');
-                iframe.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&rel=0&modestbranding=1';
-                iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+                iframe.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&rel=0&modestbranding=1&playsinline=1';
+                iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
                 iframe.setAttribute('allowfullscreen', '');
+                iframe.setAttribute('playsinline', '');
                 iframe.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:none;border-radius:1rem;';
                 this.replaceChildren(iframe);
+                this.classList.remove('video-facade');
                 this.style.cursor = 'default';
             });
         });
